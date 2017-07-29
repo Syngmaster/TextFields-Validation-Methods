@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DCD208AB1F2D252300548C36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD208AA1F2D252300548C36 /* main.m */; };
 		DCD208AE1F2D252300548C36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD208AD1F2D252300548C36 /* AppDelegate.m */; };
-		DCD208B11F2D252300548C36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD208B01F2D252300548C36 /* ViewController.m */; };
+		DCD208B11F2D252300548C36 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD208B01F2D252300548C36 /* SMViewController.m */; };
 		DCD208B41F2D252300548C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD208B21F2D252300548C36 /* Main.storyboard */; };
 		DCD208B61F2D252300548C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD208B51F2D252300548C36 /* Assets.xcassets */; };
 		DCD208B91F2D252300548C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD208B71F2D252300548C36 /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		DCD208AA1F2D252300548C36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCD208AC1F2D252300548C36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCD208AD1F2D252300548C36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCD208AF1F2D252300548C36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCD208B01F2D252300548C36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCD208AF1F2D252300548C36 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		DCD208B01F2D252300548C36 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
 		DCD208B31F2D252300548C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCD208B51F2D252300548C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD208B81F2D252300548C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				DCD208AC1F2D252300548C36 /* AppDelegate.h */,
 				DCD208AD1F2D252300548C36 /* AppDelegate.m */,
-				DCD208AF1F2D252300548C36 /* ViewController.h */,
-				DCD208B01F2D252300548C36 /* ViewController.m */,
+				DCD208AF1F2D252300548C36 /* SMViewController.h */,
+				DCD208B01F2D252300548C36 /* SMViewController.m */,
 				DCD208B21F2D252300548C36 /* Main.storyboard */,
 				DCD208B51F2D252300548C36 /* Assets.xcassets */,
 				DCD208B71F2D252300548C36 /* LaunchScreen.storyboard */,
@@ -151,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD208B11F2D252300548C36 /* ViewController.m in Sources */,
+				DCD208B11F2D252300548C36 /* SMViewController.m in Sources */,
 				DCD208AE1F2D252300548C36 /* AppDelegate.m in Sources */,
 				DCD208AB1F2D252300548C36 /* main.m in Sources */,
 			);

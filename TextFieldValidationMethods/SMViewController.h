@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SMViewController.h
 //  TextFieldValidationMethods
 //
 //  Created by Syngmaster on 29/07/2017.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SMViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
